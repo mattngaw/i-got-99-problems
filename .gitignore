@@ -1,0 +1,6 @@
+*
+!*/
+
+!.gitignore
+!ocaml/**/*.ml
+!rust/**/*.rs
