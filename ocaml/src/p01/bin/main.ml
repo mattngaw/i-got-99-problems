@@ -6,7 +6,7 @@
 let rec last = function
     | [] -> None
     | [x] -> Some x
-    | x::xs' -> last xs'
+    | _::xs' -> last xs'
 
 let () = assert (last [] = None)
 let () = assert (last [1] = Some 1)
