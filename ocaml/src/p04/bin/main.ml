@@ -16,4 +16,16 @@ let () = assert (length [1] = 1)
 let () = assert (length [1; 2] = 2)
 let () = assert (length [1; 2; 3] = 3)
 
+let length_tail xs = 
+    let rec helper l = function
+        | [] -> l
+        | _::xs -> helper (l+1) xs
+    in
+    helper 0 xs
+
+let () = assert (length_tail [] = 0)
+let () = assert (length_tail [1] = 1)
+let () = assert (length_tail [1; 2] = 2)
+let () = assert (length_tail [1; 2; 3] = 3)
+
 let () = Stdlib.print_endline "Tests passed!"
