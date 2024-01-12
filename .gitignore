@@ -2,5 +2,5 @@
 !*/
 
 !.gitignore
-!ocaml/**/main.ml
+!ocaml/**/p*/bin/main.ml
 !rust/**/main.rs
