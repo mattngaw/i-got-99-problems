@@ -1,7 +1,7 @@
 (*
  * If you need so, refresh your memory about [run-length encoding](https://en.wikipedia.org/wiki/Run-length_encoding).
  *
- * [encode : 'a list -> (int * 'a) list]
+ * [encode : 'a list -> 'a rle list]
  *)
 
 type 'a rle =
