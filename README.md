@@ -1,3 +1,1 @@
-My solutions to a series of problems inspired by [OCaml's list of exercises](https://ocaml.org/exercises).
-
-Currently solving them in OCaml.
+*In preparation for [15-411 Compiler Design](https://www.cs.cmu.edu/~janh/courses/411/24/index.html)*.
